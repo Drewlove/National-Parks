@@ -1,0 +1,30 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <form>
+          <div class="state-container">
+            <label for="input-state">State:</label>
+            <input id="input-state" name="input-state" type="text" placeholder="State 2 Letter Code">
+          </div>
+          <div class="entries-container">
+            <label for="input-entries">Entries: </label>
+            <input id="input-entries" name="input-entries" type="number" min="1" max="50" placeholder="Number of Entries">
+          </div>
+          <button type="submit" id="button">Submit</button>
+      </form>
+      <section class="response hidden">
+          <ul class="results-list">
+          </ul>
+      </section> 
+    <script src="index.js"></script>
+  </body>
+</html>
